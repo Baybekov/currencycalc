@@ -16,11 +16,6 @@ inputRub.addEventListener('input', () => {
             inputUsd.value = (+inputRub.value / data.current.usd).toFixed(2);
         } else {
             inputUsd.value = "Что-то пошло не так";
-            if (isNaN(inputUsd.value) = true) {
-                inputUsd.value = "Введите число";
-            } 
-
-        
         }
     });
 

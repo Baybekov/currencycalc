@@ -1,9 +1,36 @@
 label {
     display: block;
+    width: 100%;
     font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0 0 30px 0;
+
 }
 input {
-    width: 300px;
-    height: 50px;
-    font-size: 30px;
+    border-radius: 4px;
+    border: 3px solid #DCECF4;
+    color: #81819F;
+    font-family: 'Rubik';
+    font-size: 20px;
+    padding: 0 15px;
+    border-radius: 50em;
+    height: 60px;   
+    text-align: center;
+    margin: 0 0 50px -37px;
 }
+.center {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height:100px;
+    margin: -150px 0 0 -100px;
+}
+
+body {
+    height: 200px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+
